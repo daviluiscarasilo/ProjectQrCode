@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "48e01442-9fce-492d-b9e0-1ae441961779",
+		"name": "Api Produto - fatec",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numeroIdentificacao\": \"432940432\",\r\n    \"descricao\": \"Café Export 500 g\",\r\n    \"preco\":\"10.99\",\r\n    \"atributos\":\"Altura - 18 cm - Largura - 11 cm Profundidade - 6,5 cm - Peso líquido - 500 g\",\r\n    \"negocio\":\" tamanho do estoque, frequência de reposição, pedido mínimo\",\r\n    \"status\":\"ativo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/produtos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"produtos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/produtos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/produtos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"produtos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/produtos/60ad998cc2d6d01ba9cdae1e",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/produtos/60ad998cc2d6d01ba9cdae1e",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"produtos",
+						"60ad998cc2d6d01ba9cdae1e"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/produtos/60ad9a29cfe0fd1be7e52993",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/produtos/60ad9a29cfe0fd1be7e52993",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"produtos",
+						"60ad9a29cfe0fd1be7e52993"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

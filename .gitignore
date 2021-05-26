@@ -1,0 +1,4 @@
+# Arquivos ou pastas que serão ignorados pelo GIT
+node_modules/
+.env
+*.mongodb
