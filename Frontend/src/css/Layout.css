@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');
+
+
+
+/* Classes de estilizações gerais do site */
+body{
+  background-image: linear-gradient( rgb(240, 240, 238), #1DBCB8);
+  overflow-x: hidden; /* Hide scrollbars */
+}
+*{
+  font-family: 'Montserrat',sans-serif;
+}
+a,h4{
+  color: black;
+}
+
+.cabecalho{
+    background-color: #1DBCB8;
+}
+.relatorio{
+  background-color: #1DBCB8;
+}
+.camposFormulario{
+  background-color: #1dbcb85c !important;
+  color: black !important;
+  font-weight: bold
+}
+.titulosFormulario{
+  text-align: end;
+  font-weight: bold
+}

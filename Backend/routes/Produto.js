@@ -25,7 +25,7 @@ router.get("/", async(req, res) => {
 /*****************************
  * GET /produtos/:id
  * Listar o produto pelo id
- ****************************/
+ *****************************/
 router.get('/:id', async(req, res)=>{
     try{
        const produto = await Produto.findById(req.params.id)

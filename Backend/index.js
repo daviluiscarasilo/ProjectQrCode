@@ -41,11 +41,11 @@ app.use("/produtos", rotasProduto)
 //Rota para tratar erros 404 (deve ser a última sempre!)
 app.use(function(req, res){
     res.status(404).json({
-        mensagem: `A rota ${req.originalUrl} não existe!`
+        mensagem: `A rota ${req.originalUrl} não g!`
     })
 })
 
 app.listen(PORT, (req, res) => {
-    console.log(`💻 Servidor Web rodando na porta ${PORT}`)
+    console.log(`💻 tete Web rodando na porta ${PORT}`)
 }
 )
