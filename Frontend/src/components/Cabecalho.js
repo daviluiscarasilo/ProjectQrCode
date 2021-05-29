@@ -17,9 +17,7 @@ const Cabecalho = () => {
     <Navbar className="cabecalho">
       <Navbar.Brand href="#home"><MdCollectionsBookmark /></Navbar.Brand>
       <Nav className="mr-auto">
-        <Nav.Link href="#/home" ><MdHome /> Home</Nav.Link>
-        <Nav.Link href="#contato"><MdMailOutline /> Contato</Nav.Link>
-        <Nav.Link href="#inicio"><MdDescription /> Sobre</Nav.Link>
+        <Nav.Link href="#/home" className="Active"><MdHome /> Home</Nav.Link>
       </Nav>
     </Navbar>
   )
