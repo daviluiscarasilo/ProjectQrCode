@@ -168,6 +168,7 @@ const Home = () => {
                 + produto.negocio + "\n"
                 + produto.status + "\n") + "";
             return MySwal.fire(<QRCode value={qrCodeValue}/>)
+            
         })
     }
 

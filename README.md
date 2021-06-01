@@ -3,7 +3,7 @@
 
 Projeto Backend em NodeJS integrado ao MongoDB.
 
-- Clone o projeto (git clone https://github.com/ricardoleme/backend.git)
+- Clone o projeto (git clone https://github.com/daviluiscarasilo/ProjectQrCode)
 - Renomeie o arquivo .env-exemplo para .env e informe a string de conexão do MongoDB
 - Inicialize o servidor na porta 4000
 - Aponte o navegador em http://localhost:4000
@@ -15,7 +15,7 @@ Projeto Backend em NodeJS integrado ao MongoDB.
 
 Projeto de Frontend em ReactJS consumindo o Backend em NodeJS integrado ao MongoDB.
 
-- Clone o projeto (git clone https://github.com/ricardoleme/frontend.git) 
+- Clone o projeto (git clone https://github.com/daviluiscarasilo/ProjectQrCode)
 - Inicialize o servidor na porta 3000 (npm start)
 - Aponte o navegador em http://localhost:3000
 - Não esqueça de iniciar também o backend!
@@ -23,6 +23,6 @@ Projeto de Frontend em ReactJS consumindo o Backend em NodeJS integrado ao Mongo
 
 ## Licença
 
-MIT
+MIT1
 
 **Free Software, Hell Yeah!🐧** 
